@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #EBFBFF;
+}
+ 
+
+.content-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    background-color: #FFFFFF;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.content-block__text {
+    max-width: 50%;
+}
+
+.content-block__title {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.content-block__description {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+}
+
+.content-block__image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.results-block {
+    padding: 40px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    text-align: center;
+}
+
+.results-block__title {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.results-block__cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.results-block__card {
+    background-color: #F7F9FC;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    text-align: center;
+}
+
+.results-block__card img {
+    height: 100px;
+    width: auto;
+    margin-bottom: 15px;
+}
+
+.results-block__card-number {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 10px 0;
+    background: linear-gradient(180deg, #25006E, #CCB3FE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.results-block__card-text {
+    font-size: 24px;
+    color: #666;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F7F9FC;
+    color: #333;
+}
+
+
+.how-we-work {
+    background-color: #ACEDFE;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.how-we-work__title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.how-we-work__steps {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.step {
+    text-align: center;
+    max-width: 200px;
+}
+
+.step__icon {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+}
+
+.step__text {
+    font-size: 16px;
+    color: #333;
+}
+
+.consultation {
+    background-color: #EAF8FF;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.consultation__title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.consultation__text {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.consultation__button {
+    background-color: #6095EB;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.consultation__button:hover {
+    background-color: #507DD6;
+} 

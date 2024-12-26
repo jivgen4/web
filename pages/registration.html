@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/login.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/header.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="site-header__logo">
+            <img src="../Images/image 1.png" alt="Mental Clinic Logo">
+            <h1><a href="main.html">Mental Clinic</a></h1>
+        </div>
+        <div class="site-header__menu">
+            <nav class="site-header__nav">
+                <a href="tests.html">Тести</a>
+                <a href="online-heal.html">Онлайн-лікування</a>
+            </nav>
+            <div class="site-header__buttons">
+                <button class="site-header__button"><a href="zamovlennya.html">Зробити замовлення</a></button>
+                <button class="site-header__button" id="auth-button"></button>
+            </div>
+        </div>
+    </header>
+    
+<body>
+    <section class="login-section">
+        <h2 class="login-section__title">Реєстрація</h2>
+        <div class="login-form">
+            <form id="register-form">
+                <label for="login" class="login-form__label">Логін</label>
+                <input type="text" id="login" class="login-form__input" placeholder="Введіть логін" required>
+
+                <label for="password" class="login-form__label">Пароль</label>
+                <input type="password" id="password" class="login-form__input" placeholder="Введіть пароль" required>
+
+                <label for="password_confirm" class="login-form__label">Повторіть пароль</label>
+                <input type="password" id="password_confirm" class="login-form__input" placeholder="Повторіть пароль" required>
+
+                <button type="submit" class="login-form__button">Зареєструватись</button>
+            </form>
+            <br>
+            <p>Вже зареєстровані?</p>
+            <a href="login.html" class="sender-button">
+                Увійти
+            </a>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="site-footer__content">
+            <div class="site-footer__block">
+                <h3 class="site-footer__title">Соціальні мережі:</h3>
+                <div class="site-footer__socials">
+                    <img src="../Images/socials/1.png" alt="Facebook">
+                    <img src="../Images/socials/2.png" alt="Instagram">
+                    <img src="../Images/socials/3.png" alt="Twitter">
+                </div>
+            </div>
+    
+            <div class="site-footer__block">
+                <h3 class="site-footer__title">Адреса:</h3>
+                <p class="site-footer__text">вул. Маршала Говорова, 4А, Одеса</p>
+            </div>
+    
+            <div class="site-footer__block">
+                <a href="#public-contract" class="site-footer__link">Публічний договір</a>
+                <a href="#terms" class="site-footer__link">Умови використання</a>
+            </div>
+        </div>
+    
+        <div class="site-footer__bottom">
+            © Mental Clinic - Ліц. № 33 від 05.01.2024 р.
+        </div>
+    </footer>
+    <script src="../registration.js"></script>
+    <script src="../header.js"></script>
+</body>
+</html>

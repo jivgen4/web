@@ -1,0 +1,69 @@
+/* Стилі для секції онлайн-лікування */
+.online-treatment {
+    background-color: #eaf8ff; /* Світло-блакитний фон */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.online-treatment__title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.online-treatment__subtitle {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+/* Контейнер для карт */
+.online-treatment__cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Стилі для карток */
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 280px; /* Ширина картки */
+    text-align: center;
+}
+
+.card__title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #1a1a1a;
+}
+
+.card__description {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.card__button {
+    background-color: #6095EB;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.card__button:hover {
+    background-color: #497cd2;
+}
